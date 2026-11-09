@@ -31,30 +31,30 @@
       "notesHtml": "<ul><li>Save folder structure now mimics the wiki structure in the app</li><li>Files are no longer duplicated for each tag assigned to them, there is now only one copy of each file saved</li></ul><p><strong>Full Changelog</strong>: <a href=\"https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4\" rel=\"noopener noreferrer nofollow\">https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4</a></p>"
     },
     "ayyverty/colony-archive": {
-      "tag": "v1.0.1",
-      "version": "1.0.1",
+      "tag": "v1.0.2",
+      "version": "1.0.2",
       "isBeta": false,
-      "publishedAt": "2026-11-09T04:10:18Z",
-      "url": "https://github.com/ayyverty/colony-archive/releases/tag/v1.0.1",
+      "publishedAt": "2026-11-09T05:21:09Z",
+      "url": "https://github.com/ayyverty/colony-archive/releases/tag/v1.0.2",
       "downloads": [
         {
           "platform": "windows",
           "platformLabel": "Windows",
-          "filename": "RimCodex-1.0.1-portable.exe",
-          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.1/RimCodex-1.0.1-portable.exe",
-          "bytes": 111001527,
+          "filename": "RimCodex-1.0.2-portable.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.2/RimCodex-1.0.2-portable.exe",
+          "bytes": 111027196,
           "installHint": null
         },
         {
           "platform": "windows",
           "platformLabel": "Windows",
-          "filename": "RimCodex-1.0.1-setup.exe",
-          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.1/RimCodex-1.0.1-setup.exe",
-          "bytes": 121989818,
+          "filename": "RimCodex-1.0.2-setup.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.2/RimCodex-1.0.2-setup.exe",
+          "bytes": 121990139,
           "installHint": null
         }
       ],
-      "notesHtml": "<p>Performance and packaging update for RimCodex.</p>"
+      "notesHtml": "<p>Window control and tag tooltip fixes.</p>"
     }
   }
 }
