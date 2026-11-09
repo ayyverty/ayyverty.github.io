@@ -1,34 +1,60 @@
 {
   "repos": {
     "averyfaulk/RimChronicle": {
-      "tag": "1.2.3",
-      "version": "1.2.3-beta",
+      "tag": "1.2.4",
+      "version": "1.2.4-beta",
       "isBeta": true,
-      "publishedAt": "2026-09-27T02:37:55Z",
-      "url": "https://github.com/averyfaulk/RimChronicle/releases/tag/1.2.3",
+      "publishedAt": "2026-09-27T20:59:58Z",
+      "url": "https://github.com/ayyverty/RimChronicle/releases/tag/1.2.4",
       "downloads": [
         {
           "platform": "linux",
           "platformLabel": "Linux",
-          "filename": "RimChronicle-1.2.3-beta.AppImage",
-          "url": "https://github.com/averyfaulk/RimChronicle/releases/download/1.2.3/RimChronicle-1.2.3-beta.AppImage",
-          "bytes": 143103337,
+          "filename": "RimChronicle-1.2.4-beta.AppImage",
+          "url": "https://github.com/ayyverty/RimChronicle/releases/download/1.2.4/RimChronicle-1.2.4-beta.AppImage",
+          "bytes": 143103338,
           "installHint": {
             "kind": "command",
             "label": "Install and run",
-            "text": "chmod +x RimChronicle-1.2.3-beta.AppImage && ./RimChronicle-1.2.3-beta.AppImage"
+            "text": "chmod +x RimChronicle-1.2.4-beta.AppImage && ./RimChronicle-1.2.4-beta.AppImage"
           }
         },
         {
           "platform": "windows",
           "platformLabel": "Windows",
-          "filename": "RimChronicle.Setup.1.2.3-beta.exe",
-          "url": "https://github.com/averyfaulk/RimChronicle/releases/download/1.2.3/RimChronicle.Setup.1.2.3-beta.exe",
-          "bytes": 113760344,
+          "filename": "RimChronicle.Setup.1.2.4-beta.exe",
+          "url": "https://github.com/ayyverty/RimChronicle/releases/download/1.2.4/RimChronicle.Setup.1.2.4-beta.exe",
+          "bytes": 113760914,
           "installHint": null
         }
       ],
-      "notesHtml": "<ul><li>Fixed AI features not working due to missing OpenCode header (note: OpenCode Zen does not work due to Zen limitations - I will be replacing this provider with another option in a future release)</li><li>Optimized AI token usage</li><li>Autosaves now also remove stale files left behind by renamed/deleted articles</li></ul><p><strong>Full Changelog</strong>: <a href=\"https://github.com/averyfaulk/RimChronicle/compare/1.2.0...1.2.3\" rel=\"noopener noreferrer nofollow\">https://github.com/averyfaulk/RimChronicle/compare/1.2.0...1.2.3</a></p>"
+      "notesHtml": "<ul><li>Save folder structure now mimics the wiki structure in the app</li><li>Files are no longer duplicated for each tag assigned to them, there is now only one copy of each file saved</li></ul><p><strong>Full Changelog</strong>: <a href=\"https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4\" rel=\"noopener noreferrer nofollow\">https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4</a></p>"
+    },
+    "ayyverty/colony-archive": {
+      "tag": "v1.0.0",
+      "version": "RimCodex v1.0.0",
+      "isBeta": false,
+      "publishedAt": "2026-11-09T02:59:00Z",
+      "url": "https://github.com/ayyverty/colony-archive/releases/tag/v1.0.0",
+      "downloads": [
+        {
+          "platform": "windows",
+          "platformLabel": "Windows",
+          "filename": "RimCodex-1.0.0-portable.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.0/RimCodex-1.0.0-portable.exe",
+          "bytes": 110977247,
+          "installHint": null
+        },
+        {
+          "platform": "windows",
+          "platformLabel": "Windows",
+          "filename": "RimCodex-1.0.0-setup.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.0/RimCodex-1.0.0-setup.exe",
+          "bytes": 121980959,
+          "installHint": null
+        }
+      ],
+      "notesHtml": "<p>Initial public release of RimCodex.</p><p>Windows installer and portable executable.</p>"
     }
   }
 }

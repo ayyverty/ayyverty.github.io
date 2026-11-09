@@ -197,18 +197,45 @@ export const projects: Project[] = [
     order: 4,
   },
   {
-    // Placeholder. Replace with a real project, or delete the entry.
-    slug: 'new-project',
-    name: 'New project',
-    tagline: 'Under construction',
-    summary: 'Something new. Too early to show yet.',
+    slug: 'rimcodex',
+    name: 'RimCodex',
+    tagline: 'Colony Archive & Markdown Wiki',
+    repo: 'ayyverty/colony-archive',
+    summary:
+      'A local-first desktop Markdown terminal for turning a RimWorld colony folder into a linked, searchable archive.',
     detail:
-      'This one is still in early stages, so there is not much to look at yet. Check back later.',
-    tech: [],
-    platforms: [],
+      'RimCodex is an Electron desktop app that treats a folder of Markdown files as a colony archive. It combines a terminal-styled editor, wiki links, backlinks, tags, timelines, relationship graphs, templates, slash commands, attachments, integrity scanning and export into one local-first workspace. Nothing leaves the machine.',
+    features: [
+      {
+        title: 'Colony Wiki',
+        body: 'Markdown pages with [[wiki links]], backlinks, tags, link previews and a command palette.',
+      },
+      {
+        title: 'Archive Lenses',
+        body: 'Switch between archive, index, diagnostics, graph, timeline and manual workspaces with F1–F6.',
+      },
+      {
+        title: 'Templates & Slash Commands',
+        body: 'Create colonists, factions, events, items and locations from templates, or type / for the run palette.',
+      },
+      {
+        title: 'Colony Timeline',
+        body: 'Chronological mission log with RimWorld dates, event filters and waypoint-linked journey records.',
+      },
+      {
+        title: 'Integrity Scan',
+        body: 'Streams filesystem-check style results for broken links, malformed frontmatter, empty records and orphans.',
+      },
+      {
+        title: 'Attachments & Export',
+        body: 'Drop images or audio into the archive and export styled HTML or PDF records with an as-built footer.',
+      },
+    ],
+    tech: ['React 19', 'TypeScript', 'Electron', 'Vite', 'CodeMirror 6'],
+    platforms: ['Windows'],
     includePrerelease: false,
-    showReleases: false,
-    status: 'wip',
+    showReleases: true,
+    status: 'active',
     featured: true,
     order: 5,
   },
