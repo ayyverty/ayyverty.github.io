@@ -31,30 +31,30 @@
       "notesHtml": "<ul><li>Save folder structure now mimics the wiki structure in the app</li><li>Files are no longer duplicated for each tag assigned to them, there is now only one copy of each file saved</li></ul><p><strong>Full Changelog</strong>: <a href=\"https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4\" rel=\"noopener noreferrer nofollow\">https://github.com/averyfaulk/RimChronicle/compare/1.2.3...1.2.4</a></p>"
     },
     "ayyverty/colony-archive": {
-      "tag": "v1.0.3",
-      "version": "1.0.3",
+      "tag": "v1.0.4",
+      "version": "1.0.4",
       "isBeta": false,
-      "publishedAt": "2026-11-09T05:55:28Z",
-      "url": "https://github.com/ayyverty/colony-archive/releases/tag/v1.0.3",
+      "publishedAt": "2026-11-10T05:28:46Z",
+      "url": "https://github.com/ayyverty/colony-archive/releases/tag/v1.0.4",
       "downloads": [
         {
           "platform": "windows",
           "platformLabel": "Windows",
-          "filename": "RimCodex-1.0.3-portable.exe",
-          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.3/RimCodex-1.0.3-portable.exe",
-          "bytes": 111010191,
+          "filename": "RimCodex-1.0.4-portable.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.4/RimCodex-1.0.4-portable.exe",
+          "bytes": 111326745,
           "installHint": null
         },
         {
           "platform": "windows",
           "platformLabel": "Windows",
-          "filename": "RimCodex-1.0.3-setup.exe",
-          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.3/RimCodex-1.0.3-setup.exe",
-          "bytes": 121990426,
+          "filename": "RimCodex-1.0.4-setup.exe",
+          "url": "https://github.com/ayyverty/colony-archive/releases/download/v1.0.4/RimCodex-1.0.4-setup.exe",
+          "bytes": 122469318,
           "installHint": null
         }
       ],
-      "notesHtml": "<p>Title-bar control and tag tooltip fixes.</p>"
+      "notesHtml": "<p>Title-bar control fix and tag tooltip stabilization.</p>"
     }
   }
 }
